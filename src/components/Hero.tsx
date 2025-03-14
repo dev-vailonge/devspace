@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Hero() {
@@ -12,7 +11,7 @@ export default function Hero() {
             Aprenda a programar. <br /> Construa projetos. <br /> Seja
             <span className="bg-purple-700"> contratado(a).</span>
           </h1>
-          <p className="text-white mb-8">Entre em contato para receber informações sobre as próximas turmas!.</p>
+          <p className="text-white mb-8">Entre em contato para saber sobre novas turmas.</p>
           <button
             type="button"
             className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-all flex items-center justify-center"
@@ -22,7 +21,7 @@ export default function Hero() {
           </button>
         </div>
         <div>
-          <Image
+          <img
             src="/img/devspace.jpeg"
             alt="Code example"
             width={800}
