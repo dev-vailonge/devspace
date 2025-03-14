@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import Hero from '@/components/Hero';
 import FAQ from '@/components/FAQ';
 import { useState } from 'react';
